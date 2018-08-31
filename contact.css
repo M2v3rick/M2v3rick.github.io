@@ -36,8 +36,17 @@ input[type=submit]:hover {
   color: white;
 }
 
-.title {
-  color: white;
-  text-align: center;
-  font-size: 20px;
+.lable {
+  color: tan;
+}
+
+input.text, .country {
+  width: 25%;
+  height: 50;
+
+}
+
+textarea.subject {
+  width: 50%;
+  overflow: scroll;
 }
