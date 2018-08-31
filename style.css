@@ -1,9 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   margin: 0;
   padding: 0;
 }
 
 body {
+  background: linear-gradient(-90deg, #35577D, #141E30);
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
@@ -13,6 +23,7 @@ body {
   background-size: cover;
   height: 100px;
   text-align: center;
+  border-bottom: 3px solid;
 }
 
 .nav{
@@ -31,6 +42,10 @@ body {
   border-right: 1px solid #bbb;
 }
 
+.right {
+  border-left: 1px solid #bbb;
+}
+
 .nav li a {
   display: block;
   color: white;
@@ -46,4 +61,27 @@ body {
 
 li.right {
   float: right;
+}
+
+.title {
+  color: whitesmoke;
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main {
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  max-width: 1000px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.images {
+  max-width: 1000px;
+  max-height: 1000px;
+  margin-left: 255px;
 }
