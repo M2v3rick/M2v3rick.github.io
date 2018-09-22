@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  width: auto;
+  margin: auto;
+  grid-gap: 10px;
+  grid-template-areas: "header header"
+    									 "nav nav"
+    									 "left right"
+    									 "footer footer";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 200px 600px 200px;
+}
+
+header {
+  grid-row: 1;
+  grid-column: 1 / span 2;
+  /*grid-area: header;*/
+}
+
+.nav {
+  grid-row: 2;
+  grid-column: 1 / span 2;
+  /*grid-area: nav;*/
+}
+
+.left {
+  background-color: dodgerblue;
+  grid-area: left;
+}
+
+.right {
+  background-color: beige;
+  grid-area: right;
+}
+
+footer {
+  background-color: dodgerblue;
+  grid-area: footer;
+}

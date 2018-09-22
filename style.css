@@ -18,21 +18,23 @@ body {
   font-weight: 100;
 }
 
-.header {
+header {
   background-color: firebrick;
   background-size: cover;
-  height: 100px;
   text-align: center;
   border-bottom: 3px solid;
+  z-index: 5
 }
 
-.nav{
+.nav {
+  border-bottom: 3px solid;
+}
+.nav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: fixed;
   top: 0;
   width: 100%
 }
@@ -42,7 +44,7 @@ body {
   border-right: 1px solid #bbb;
 }
 
-.right {
+.navright {
   border-left: 1px solid #bbb;
 }
 
@@ -59,7 +61,7 @@ body {
   background-color: #111;
 }
 
-li.right {
+li.navright {
   float: right;
 }
 
